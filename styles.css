@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans:ital,wght@0,500;1,600&display=swap');
+
+body {
+	background: linear-gradient(
+    90deg, 
+    #00FF00,
+    #5600FF
+	);
+	font-family: 'Open Sans';
+	font-weight: Bold;
+}
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0;
+}
+
+.bkgrd {
+	background-image: url("https://external-preview.redd.it/nVuOOj-e_fk5pjFJQAS-bEbSX4kYISdz5tTUvcoZ9O0.jpg?auto=webp&s=4895b49322295d93d69729da4fbe30ac76036fdb");
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	width: 40vh;
+	height: 40vh;
+	background: linear-gradient(
+		90deg,
+		#00FF00,
+		#5600FF
+	);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	filter: drop-shadow(15px 15px 5px black);
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+#wrapper {
+	margin: auto 0;
+	filter: blur(0px);
+}
+
+input {
+	background: black;
+}
+
+button {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+button:hover {
+	cursor: pointer;
+}
